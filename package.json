@@ -1,6 +1,6 @@
 {
   "name": "@samrobbins/typography",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Overrides for the Tailwind CSS Typography Plugin",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,10 @@
   },
   "author": "Sam Robbins",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samrobbins85/typography.git"
+},
   "dependencies": {
     "@tailwindcss/typography": "^0.3.1"
   }
