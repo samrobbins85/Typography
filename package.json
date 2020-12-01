@@ -1,6 +1,6 @@
 {
   "name": "@samrobbins/typography",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Overrides for the Tailwind CSS Typography Plugin",
   "main": "index.js",
   "scripts": {
