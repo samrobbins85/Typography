@@ -1,0 +1,14 @@
+{
+  "name": "@samrobbins/typography",
+  "version": "1.0.0",
+  "description": "Overrides for the Tailwind CSS Typography Plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam Robbins",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/typography": "^0.3.1"
+  }
+}
