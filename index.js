@@ -17,9 +17,6 @@ module.exports = {
             "code::before": {
               content: "none",
             },
-            "pre code::after": {
-              content: "none",
-            },
             code: {
               backgroundColor: colors.gray[200],
               color: colors.gray[700],
