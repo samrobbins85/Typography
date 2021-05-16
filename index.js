@@ -18,7 +18,7 @@ module.exports = {
               content: "none",
             },
             code: {
-              backgroundColor: colors.gray[200],
+              backgroundColor: "#d8dee9",
               color: colors.gray[700],
               padding: "4px",
               borderRadius: rem(2),
