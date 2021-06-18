@@ -19,7 +19,7 @@ module.exports = {
             },
             code: {
               backgroundColor: "#d8dee9",
-              color: colors.gray[700],
+              color: colors.coolGray[700],
               padding: "4px",
               borderRadius: rem(2),
             },
@@ -39,15 +39,15 @@ module.exports = {
         light: {
           css: [
             {
-              color: theme("colors.gray.200"),
+              color: colors.coolGray[200],
               '[class~="lead"]': {
-                color: theme("colors.gray.300"),
+                color: colors.coolGray[300],
               },
               a: {
-                color: theme("colors.white"),
+                color: colors.white,
               },
               strong: {
-                color: theme("colors.white"),
+                color: colors.white,
               },
               "ol > li::before": {
                 color: "#d8dee9",
@@ -56,47 +56,47 @@ module.exports = {
                 backgroundColor: "#d8dee9",
               },
               hr: {
-                borderColor: theme("colors.gray.200"),
+                borderColor: colors.coolGray[200],
               },
               blockquote: {
-                color: theme("colors.gray.200"),
-                borderLeftColor: theme("colors.gray.600"),
+                color: colors.coolGray[200],
+                borderLeftColor: colors.coolGray[600],
               },
               h1: {
-                color: theme("colors.white"),
+                color: colors.white,
               },
               h2: {
-                color: theme("colors.white"),
+                color: colors.white,
               },
               h3: {
-                color: theme("colors.white"),
+                color: colors.white,
               },
               h4: {
-                color: theme("colors.white"),
+                color: colors.white,
               },
               "figure figcaption": {
-                color: theme("colors.gray.200"),
+                color: colors.coolGray[200],
               },
               code: {
-                color: theme("colors.white"),
+                color: colors.white,
                 backgroundColor: "#2e3440",
               },
               "a code": {
-                color: theme("colors.white"),
+                color: colors.white,
               },
               "pre code": {
                 backgroundColor: "transparent !important",
               },
               pre: {
-                color: theme("colors.gray.200"),
-                backgroundColor: theme("colors.gray.800"),
+                color: colors.coolGray[200],
+                backgroundColor: colors.coolGray[800],
               },
               thead: {
-                color: theme("colors.white"),
-                borderBottomColor: theme("colors.gray.400"),
+                color: colors.white,
+                borderBottomColor: colors.coolGray[400],
               },
               "tbody tr": {
-                borderBottomColor: theme("colors.gray.600"),
+                borderBottomColor: colors.coolGray[600],
               },
             },
           ],
